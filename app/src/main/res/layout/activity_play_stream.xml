@@ -22,7 +22,7 @@
             android:layout_height="50dp"
             android:layout_alignParentBottom="false"
             android:layout_alignParentRight="true"
-            android:layout_gravity="bottom|right"
+            android:layout_gravity="bottom|left"
             android:layout_marginTop="10dp"
             android:rotation="-90"
             android:src="@drawable/endoscope_icon_text"/>

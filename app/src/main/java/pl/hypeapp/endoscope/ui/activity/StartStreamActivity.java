@@ -114,6 +114,7 @@ public class StartStreamActivity extends TiActivity<StartStreamPresenter, StartS
                 .setSurfaceView(surfaceView)
                 .setPreviewOrientation(90)
                 .setContext(this)
+                .setCamera(1)
                 .setAudioEncoder(isAudioStream ? SessionBuilder.AUDIO_AAC : SessionBuilder.AUDIO_NONE)
                 .setAudioQuality(new AudioQuality(16000, 32000))
                 .setVideoEncoder((videoEncoder == 0) ? SessionBuilder.VIDEO_H264 : SessionBuilder.VIDEO_H263)
